@@ -400,17 +400,13 @@
           <div class="col-lg-8">
             <div class="contact-form text-center">
               <div id="success"></div>
-              <form
-                name="sentMessage"
-                action="mailto:master@jd.army"
-                target="_top"
-                novalidate="novalidate"
-              >
+              <form id="sentMessage" novalidate="novalidate">
                 <div class="control-group">
                   <input
                     type="text"
                     class="form-control p-4"
                     name="subject"
+                    autocomplete="off"
                     placeholder="Subject"
                     required="required"
                     data-validation-required-message="Please enter a subject"
@@ -422,6 +418,7 @@
                     class="form-control py-3 px-4"
                     rows="8"
                     name="body"
+                    autocomplete="off"
                     placeholder="Message"
                     required="required"
                     data-validation-required-message="Please enter your message"

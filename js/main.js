@@ -106,6 +106,12 @@
     return false;
   });
 
+  //contact sent message
+  $("#sentMessage").submit(function () {
+    window.location.href = "mailto:master@jd.army?" + $(this).serialize();
+    return false;
+  });
+
   // Testimonials carousel
   $(".testimonial-carousel").owlCarousel({
     autoplay: true,
