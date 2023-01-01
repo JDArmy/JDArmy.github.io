@@ -71,10 +71,11 @@ h6,
 }
 
 .scroll-to-bottom {
+    width: 100%;
+    text-align: center;
     position: fixed;
-    width: 20px;
-    left: calc(50% - 10px);
-    bottom: 30px;
+    left: 0;
+    bottom: 0;
     z-index: 11;
     -webkit-animation: action 1s infinite alternate;
     animation: action 1s infinite alternate;
