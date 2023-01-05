@@ -9751,6 +9751,11 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 
+/*new add*/
+.text-primary {
+  text-align: center;
+}
+
 /********** Template CSS ************/
 h1,
 .font-weight-bolder {
