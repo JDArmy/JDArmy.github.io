@@ -1,5 +1,8 @@
 (function ($) {
   "use strict";
+  $(function () {
+    $("#for-gitee").hide();
+  });
 
   // Navbar on scrolling
   $(window).scroll(function () {
